@@ -187,8 +187,8 @@ export type Timestamptz_Comparison_Exp = {
 
 /**
  * ユーザー
- * 
- * 
+ *
+ *
  * columns and relationships of "users"
  */
 export type Users = {
@@ -510,7 +510,7 @@ export type GetUsersComponentProps = Omit<ApolloReactComponents.QueryComponentOp
     export const GetUsersComponent = (props: GetUsersComponentProps) => (
       <ApolloReactComponents.Query<GetUsersQuery, GetUsersQueryVariables> query={GetUsersDocument} {...props} />
     );
-    
+
 
 /**
  * __useGetUsersQuery__
