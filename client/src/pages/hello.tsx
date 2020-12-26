@@ -10,8 +10,7 @@ const HelloPage: React.FC = () => {
 
   return (
     <div style={{whiteSpace: 'pre-wrap' }}>
-      {data.users[0].id}
-      {data.users[0].firstName}
+      { data.users.map(user => user.firstName).join('\n') }
     </div>
   )
 }
